@@ -1,0 +1,48 @@
+ body {
+    font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+    font-size: 100%;
+    min-width: 500px;
+     border-width: thick;
+     border-style: double;
+     border-radius: 5px;
+     border-color: orange;
+  }
+.form-control {
+    margin-bottom: 15px;
+  }
+.img-fluid {
+    margin: 0 auto;
+  }
+#greaterThanInput{
+    display: none;
+}
+#img{
+    height: 200px;
+    width: 150px;
+    margin-left: 50px;
+}
+#pad{
+    padding-left: 50px;
+}
+h4{
+    color: dimgray;
+}
+#top{
+    text-align: center;
+}
+.card{
+    background-color: black;
+}
+#made{
+    border-style: inset;
+    border-radius: 5px;
+    border-width: thin;
+    border-color: coral;
+    font-family: fantasy;
+}
+#gotowebsite2{
+    margin-left: 25px;
+}
+#disp{
+    display: none;
+}

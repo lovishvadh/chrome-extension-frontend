@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <title>Shop The Smart Way.</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <link href="mystyle.css" rel="stylesheet" type="text/css"> 
+    <link href="tether-1.3.3/tether-1.3.3/dist/css/tether.min.css" rel="stylesheet">
+    <link href="bootstrap-4.0.0-alpha.6-dist/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="tether-1.3.3/tether-1.3.3/dist/js/tether.min.js"></script>
+ 	<script src="bootstrap-4.0.0-alpha.6-dist/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="my.js"></script>
+    
+  </head>
+<body>
+   
+    
+       <div class="container-fluid">
+           <div class="row ">
+               <div class="col"></div>
+               <div class="col-10">
+           <center><img src="guarantee.png" width="50"><h5>Price Comparison</h5><h6>Shop the smarter way!</h6></center></div>
+               
+           <div class="col"></div>
+           </div>
+    </div>
+        <div class="card card-block bg-faded">
+    <table class="table">
+    <tr>
+        <td id="pad"><img src="" id="img" class="img-fluid"></td>
+        <td id="pad"><p><b>Product Name :  
+        </b><span id="name"></span></p>
+         <p><b>Product Current Price :  
+        </b><span id="current_price"></span></p>   
+        </td>
+        </tr>
+    </table>
+          </div>
+    <div id="disp" class="card card-block bg-faded text-center" >
+    <center><h3><small>Prices From Competing Websites</small></h3></center>
+    <!--<p><b><span id="website1"></span> Price : <span id="website1price"></span><button class="btn btn-danger" id="go-to-website1" name="Go1">Buy Now</button></b></p>-->
+    <p><b><!--<span id="website2"></span>--><img src="image9.png" width="100px"> Price :   <span id="website2price">  </span><a href="#" id="gotowebsite2" class="btn btn-warning" >Buy From Amazon</a></b></p>
+    </div>
+    <div class="card card-block bg-faded">
+        <p><center><b> Click On The Button Below To Set A Price Drop Alert.</b></center></p><b>
+        <center><button class="btn btn-success" id="display" name="display" >Set Price Alert!</button></center></b>
+    </div>
+    <br>
+    <div id="alert" style="display:none;">
+    
+    <div class="card card-block bg-faded">
+    <select class="form-control inline">
+        <option value="lessThanValue">Less than a certain price</option>
+        <option value="lessThanCurrent">Less than current price</option>
+        <option value="atAFixedPrice">At a fixed price</option>
+        </select>
+        <input id="greaterThanInput">
+        <input id="leesThanInout" class="form-control" placeholder="Price">
+        <input id="email" class="form-control" placeholder="Email Address">
+        <center>
+            <button class="btn btn-success" id="submit" name="submit">Get Notification!</button>
+        </center>
+                
+    </div>
+        
+    </div>
+    <div id = "made">
+        <center>
+            <p><span class="fa fa-copyright fa-lg" aria-hidden="true"></span>  Lovish, Amarjeet and Mayank</p>
+        </center> 
+    </div>
+    </body>
+
+</html>
